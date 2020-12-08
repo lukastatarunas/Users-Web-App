@@ -1,4 +1,4 @@
-# teltonika
+# Users Web App
 
 ## Project setup
 ```
