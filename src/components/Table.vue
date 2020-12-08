@@ -8,7 +8,7 @@
     </tr>
     <tr @click="openUserInfo(user.id)" v-for="user in users" :key="user.id">
       <td>{{ user.name }}</td>
-      <td class="email">{{ user.email }}</td>
+      <td>{{ user.email }}</td>
       <td>{{ user.phone }}</td>
       <td>{{ user.company.name }}</td>
     </tr>
@@ -112,7 +112,7 @@ tr:hover {
     display: none;
   }
 
-  .email {
+  td {
     white-space: pre-wrap; /* Webkit */
     white-space: -moz-pre-wrap; /* Firefox */
     white-space: -pre-wrap; /* Opera <7 */
